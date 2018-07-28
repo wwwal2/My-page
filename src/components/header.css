@@ -1,0 +1,23 @@
+#image {
+    color: rgb(212, 50, 164);
+    text-align: center;
+}
+
+#title {
+    text-align: center;
+    font-size: 7em;
+    font-family: NimbusSanL-Regu;
+}
+
+#post {
+    text-align: center;
+    font-size: 2em;
+    color: whitesmoke;
+    margin-top: 2%;
+    text-shadow: black 0.1em 0.1em 0.2em;
+}
+
+.row {
+    margin-top: 2em;
+
+}
