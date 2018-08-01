@@ -11,7 +11,7 @@ class Inputline extends Component {
                     <div className="col-sm-2" >
                     </div>
                     <div className="col-sm-9" >
-                      <input type="text" className="inputLine"/>
+                      <input type="text" className="inputLine" placeholder="Input your IP (example: 114.101.250.125)"/>
                     </div>
                     <div className="col-sm-1"></div>
                 </div>

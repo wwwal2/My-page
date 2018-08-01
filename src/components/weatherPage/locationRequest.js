@@ -1,7 +1,8 @@
 
 import React, { Component } from 'react';
 import { Fetch } from 'react-request';
- 
+
+
 class LocationRequest extends Component {
   render() {
     return (

@@ -12,9 +12,10 @@ class Weather extends React.Component {
       return (
        
         <div>
-           WEATHER PAGE
+           <h1>WEATHER PAGE IS UNDER RECONSTRUCTION</h1>
+           <p>Have a problems with create-react-app compilation</p>
            <InputLine/>
-           <LocationRequest/>
+           
         </div>
       );
     }
