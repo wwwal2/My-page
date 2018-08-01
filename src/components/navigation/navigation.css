@@ -1,0 +1,19 @@
+.table-light {
+    text-align: center; 
+    margin-top: 3em;
+    font-size: 20px;
+
+
+   
+}
+
+.link {
+    color: rgb(31, 92, 128);
+    
+}
+
+.link:hover {
+    color: rgb(35, 35, 36);
+    text-decoration: none;
+
+}

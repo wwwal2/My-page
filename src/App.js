@@ -1,16 +1,29 @@
 import React, { Component } from 'react';
+
+
+
 import './App.css';
 
-import Header from './components/header';
-import Inputline from './components/inputLine';
+import Navigation from './components/navigation/navigation';
 
 class App extends Component {
+  state = {
+    
+  }
+  
   render() {
+       
+
     return (
-      <div className="App">
-        <Header/>
-        <Inputline/>
-      </div>
+          <div>
+           
+            <Navigation/>
+            
+            <footer className="footer"> <p>Junior Fullstack Developer</p> </footer>
+          </div>          
+
+
+
     );
   }
 }
