@@ -20,3 +20,10 @@
 .row {
     margin-top: 2em;
 }
+
+.titlePageText {
+    
+    font:  Helvetica;
+    font-size: 19px;
+    padding-left: 4em;
+}

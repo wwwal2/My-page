@@ -1,0 +1,13 @@
+.weatherTitle{
+    font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
+  font-size: 40px;
+  padding: 40px 20px;
+  text-align: center;
+  text-transform: uppercase;
+  text-rendering: optimizeLegibility;
+  color: #131313;
+    background-color: #e7e5e4;
+    letter-spacing: .15em;
+    
+      
+}

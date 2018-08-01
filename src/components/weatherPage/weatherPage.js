@@ -1,25 +1,25 @@
-import React, { Component } from 'react';
+import React from 'react';
 import InputLine from '../inputLine/inputLine';
-import LocationRequest from './weatherRequest';
+import IpRequest from './ipRequest';
+import './weatherPage.css';
 
 
-class Weather extends React.Component {
+const Weather = () => {
 
   
-    render() {
-      
+    
 
       return (
        
         <div>
-           <h1>WEATHER PAGE IS UNDER RECONSTRUCTION</h1>
-           <p>Have a problems with create-react-app compilation</p>
+           <h1 className="weatherTitle">WEATHER APP</h1>
+           <p></p>
            <InputLine/>
-           
+           <IpRequest/>
         </div>
       );
     }
-  }
+  
   
   export default Weather;
   

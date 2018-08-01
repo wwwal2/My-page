@@ -16,7 +16,12 @@ class Header extends React.Component {
                 <div className="row" >
                     <div className="col-sm-3" id="image"><Img/></div>
                     <div className="col-sm-7" id="title">Alex's Smirnov App</div>
-                    <div className="col-sm-2" id="post">my starting project</div>
+                    <div className="col-sm-2" id="post">my start project</div>
+                </div>
+                <div className="titlePageText">
+                    <div></div>
+                    
+                    
                 </div>
             </div>
 
