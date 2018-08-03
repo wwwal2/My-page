@@ -1,12 +1,12 @@
-import React, { Component } from 'react';
+import React from 'react';
 import './header.css';
 import Img from '../image/image';
 
 
-class Header extends React.Component {
+const Header = () => {
     
     
-    render() {
+    
 
       return (
        
@@ -30,7 +30,7 @@ class Header extends React.Component {
         </div>
       );
     }
-  }
+  
   
   export default Header;
   

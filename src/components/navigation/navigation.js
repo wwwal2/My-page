@@ -17,9 +17,9 @@ const Navigation = () => {
                 
                 <Route path="/weather" exact component={Weather} /> 
                 <Route path="/skills" exact component={Skills} />   
-                <div class="container">
+                <div className="container">
 
-                    <table class="table table-light table-hover">
+                    <table className="table table-light table-hover">
                         <tbody>
                             <tr>
                                 <th></th>

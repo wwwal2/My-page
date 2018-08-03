@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import { Fetch } from 'react-request';
 import WeatherRequest from './weatherRequest';
 import ImageWeather from '../image/image_weather';
+import OnReject from './onReject';
 
 
 class IpRequest extends Component {
@@ -17,7 +18,7 @@ class IpRequest extends Component {
               }
     
               if (failed) {
-                return <div>The request did not succeed.</div>;
+                return <div> <OnReject/> </div>;
               }
     
               if (data) {

@@ -1,14 +1,9 @@
-import React, { Component } from 'react';
+import React from 'react';
 import './skills.css';
 import text from './text.json';
 
 
-class Skills extends React.Component {
-
-  
-    render() {
-
-      
+const Skills = () => {     
 
       return (
         <div>
@@ -49,7 +44,7 @@ class Skills extends React.Component {
         </div>
       );
     }
-  }
+  
   
   export default Skills;
   
