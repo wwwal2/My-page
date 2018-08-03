@@ -19,7 +19,7 @@ class Header extends React.Component {
                     <div className="col-sm-2" id="post">my start project</div>
                 </div>
                 <div className="titlePageText">
-                    <div></div>
+                    <div><footer className="footer"> <p>Junior Fullstack Developer</p> </footer></div>
                     
                     
                 </div>

@@ -1,4 +1,9 @@
-.weatherTitle{
+
+#a {
+    background-color: blue;
+}
+
+.contactsTitle {
     font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
     font-size: 40px;
     padding: 40px 20px;
@@ -10,9 +15,6 @@
     letter-spacing: .15em;      
 }
 
-#weatherPageText {
-  text-align: left;
-  padding-left: 6em;
-  font-family: Avantgarde;
+#mainText {
+    text-align: justify;
 }
-

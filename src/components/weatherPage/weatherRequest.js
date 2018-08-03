@@ -11,7 +11,7 @@ class WeatherRequest extends Component {
     return (
       
         <div>
-                <Fetch url={`QQQhttp://api.openweathermap.org/data/2.5/weather?lat=${this.props.pass.lat}&lon=${this.props.pass.lon}&appid=bb794341f05d858c4293e3ec60edba9b`}>
+                <Fetch url={`http://api.openweathermap.org/data/2.5/weather?lat=${this.props.pass.lat}&lon=${this.props.pass.lon}&appid=bb794341f05d858c4293e3ec60edba9b`}>
                   {({ fetching, failed, data }) => {
                 if (fetching) {
                   return <div>Loading data...</div>;
@@ -25,7 +25,7 @@ class WeatherRequest extends Component {
                   return (
                     <div>
                       <div>Weather description: {data.weather[0].description}</div>
-                      <div>Temperature: {data.main.temp} Kelvin</div>
+                      <div>Temperature: {(data.main.temp - 273).toFixed(1)} С </div>
                       
                     </div>
                   );

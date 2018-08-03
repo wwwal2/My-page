@@ -19,7 +19,7 @@ class App extends Component {
            
             <Navigation/>
             
-            <footer className="footer"> <p>Junior Fullstack Developer</p> </footer>
+            
           </div>          
 
 

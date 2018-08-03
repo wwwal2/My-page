@@ -1,12 +1,13 @@
 import React, { Component } from 'react';
 import { Fetch } from 'react-request';
 import WeatherRequest from './weatherRequest';
+import ImageWeather from '../image/image_weather';
 
 
 class IpRequest extends Component {
   
   render() {
-   
+    
       return (
         <div>
           <Fetch url="http://ip-api.com/json">
@@ -23,11 +24,27 @@ class IpRequest extends Component {
                 
                 return (
                   <div>
-                    <div>Country: {data.country}</div>
-                    <div>City: {data.city}</div>
-                    <div>Lat: {data.lat}</div>
-                    <div>Long: {data.lon} </div>
-                    <div><WeatherRequest pass={data}/></div>
+                    <h5>Collecting information ...</h5>
+                    
+                    <div></div>
+                    
+                    
+                    <div className = "container-fluid">
+
+                        <div className="row" >
+                            <div className="col-sm-3" ></div>
+                            <div className="col-sm-5" >
+                              <p>Country: {data.country}<br/>City: {data.city}<br/>Lat: {data.lat}<br/>Long: {data.lon}<br/></p> 
+                              
+                              <p><WeatherRequest pass={data}/></p>
+                            </div>
+                            <div className="col-sm-2" id="imageWeather"><ImageWeather/></div>
+                            <div className="col-sm-2"></div>
+                        </div>
+        
+                    </div>
+                    
+
                   </div>
                 );
               }
