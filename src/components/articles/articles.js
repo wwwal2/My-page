@@ -9,7 +9,7 @@ const Articles = () => {
       return (
        
         <div>
-            <h1 className="weatherTitle">WORLD WIDE NEWS</h1>                                  
+            <h1 className="weatherTitle">WORLD WIDE NEWS</h1>
             <InputLine/>
         </div>
       );

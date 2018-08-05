@@ -13,7 +13,7 @@ import NewsItem from './newsItem'
         
           
           return (
-            <div>             
+            <div id="articles">             
               {parsedArrayItem}
             </div>
           );

@@ -1,5 +1,4 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 
 
 const NewsItem = ({passToItem}) => {
@@ -9,7 +8,8 @@ const NewsItem = ({passToItem}) => {
          <div><h4>{passToItem.title}</h4></div>
          <div><h5>{passToItem.author}</h5></div>
          <div><p>{passToItem.description}</p></div>
-         <div><Link to={passToItem.url} className="link"> {passToItem.url} </Link></div>
+          <a href={passToItem.url}> Follow the original article </a>
+
       </div>
     );
   
