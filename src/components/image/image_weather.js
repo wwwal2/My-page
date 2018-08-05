@@ -4,7 +4,7 @@ import imageWeather from './image_weather.jpg'; // Tell Webpack this JS file use
 
 
 function ImageWeather() {
-  return <img src={imageWeather} alt="Logo" style={{width: '100%', height: '170px'}} />;
+  return <img src={imageWeather} alt="Logo" style={{width: '200px', height: '170px'}} />;
 }
 
 export default ImageWeather;

@@ -11,7 +11,7 @@ class IpRequest extends Component {
     
       return (
         <div>
-          <Fetch url="http://ip-api.com/json">
+          <Fetch url="QQQhttp://ip-api.com/json">
             {({ fetching, failed, data }) => {
               if (fetching) {
                 return <div>Loading data...</div>;
